@@ -1,0 +1,129 @@
+*
+            {
+            font-family: 'roboto', Arial, Helvetica, sans-serif;
+            font-size: 20 px;
+            font-weight: 400;
+            line-height: 30px;
+            }   
+        header
+            {
+            display: flex;
+            background-color: #B36050; 
+            height: 47px;
+            color: #F1D3B9;
+            font-size: 17px;
+            justify-content: center;
+            align-items: center;
+            }
+        nav
+            {
+            display: flex;    
+            background-color: #F6F4EC;
+            height: 61px;
+            justify-content: space-between;
+            align-items: center;
+            }  
+        .menu
+            {
+            text-decoration: none;
+            color: #B4604D;
+            margin: 5px;
+            } 
+        .menu:hover
+            {
+            text-decoration: underline;
+            }
+        footer
+            {
+            display: flex;    
+            background-color: #F6F4EC;
+            height: 401px;
+            color: #B45F4D;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-content: space-around;
+            }
+        footer div:nth-last-child(1)
+            {
+                width: 100%;
+            }
+        #rectangle
+            {
+            background-color: #DF9B7A;
+            color: #F6F4EC;
+            height: 92px;
+            width: 1219px;
+            /* margin: 0 200px 30px 200px; */
+            }
+        #rectangle:hover 
+            {
+            background-color: #B36050;
+            } 
+        #rectangle1
+            {
+            height: 304px; 
+            background-color: #A9AE8D; 
+            color: #F6F4EC;
+            }
+        #daeshampoos
+            {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            margin: 50px;
+            }
+        p
+            {
+            margin: 20px;
+            padding: 20px;
+            }
+        #PickaPrettyBottle
+            {
+            display: flex; 
+            background-color:#F6F4EC; 
+            color: #B45F4D;
+            text-decoration: none;
+            justify-content: space-around;
+            }
+        li 
+            {
+            list-style-type: none; 
+            }
+        .prettybottle:hover {box-shadow: 0 0 10px #B36050;
+            }
+        .previews
+            {
+            display: flex;
+            justify-content: space-around;    
+            }
+        .womans 
+            {
+            background-color: #F1D3B9;
+            position: relative;
+            }
+        .woman2
+            {
+            margin: 5% 10% 5% 15%;
+            }
+        .rectangle2
+            {
+            height: 400px;
+            width: 300px;
+            background: #F8F8F8;
+            color: #B45F4D;
+            padding: 5%;
+            position: absolute;
+            right: 150px;
+            bottom: 200px;
+        }
+        .woman1
+        {
+            position: absolute;
+            left: 100px;
+            bottom: 50px;    
+        }
+        .daesoap
+        {
+            width: 100%;
+        }
